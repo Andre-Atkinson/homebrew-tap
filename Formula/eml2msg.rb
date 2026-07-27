@@ -1,10 +1,9 @@
 class Eml2msg < Formula
   desc "Convert Outlook-for-Mac .eml files to Windows Outlook .msg"
   homepage "https://github.com/Andre-Atkinson/eml_converter"
-  url "https://github.com/Andre-Atkinson/eml_converter/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "92cfa9675c61f74956185f33c631aad00a3da14c355d888b88a777e9720854e2"
+  url "https://github.com/Andre-Atkinson/eml_converter/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "e774442df4e479ba31359de1e5470bce7683264add5d1b8062b464fbb81fc9c3"
   license "MIT"
-  revision 1
 
   depends_on "dotnet" => :build
   depends_on :macos
