@@ -10,10 +10,9 @@ brew install andre-atkinson/tap/eml2msg
 The formula builds the self-contained binary from source; the .NET SDK is pulled
 in only as a build dependency, and the installed CLI needs nothing at runtime.
 
-After installing, enable the optional Finder **Convert to MSG** Quick Action —
-`brew info eml2msg` prints the exact command, or:
+After installing, enable the optional Finder **Convert to MSG** Quick Action
+with a single command:
 
 ```bash
-python3 "$(brew --prefix eml2msg)/libexec/install_quickaction.py" \
-  --binary "$(brew --prefix eml2msg)/bin/eml2msg" --from "Your Name <you@example.com>"
+eml2msg-quickaction --from "Your Name <you@example.com>"
 ```
